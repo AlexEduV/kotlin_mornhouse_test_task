@@ -11,9 +11,7 @@ import com.example.numberinterestingfact.presentation.navigation.NavGraph
 
 class MainActivity : ComponentActivity() {
 
-    //todo: project structure is not clean
     //todo: maybe should disable buttons, while the previous request is processing
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
