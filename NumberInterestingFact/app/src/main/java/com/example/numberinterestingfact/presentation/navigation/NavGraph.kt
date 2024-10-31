@@ -20,6 +20,7 @@ fun NavGraph(navController: NavHostController, database: AppDatabase) {
             navController = navController,
             startDestination = Destinations.Home.route
         ) {
+
             composable(Destinations.Home.route) {
                 HomeScreen(navController, database)
             }
@@ -33,6 +34,7 @@ fun NavGraph(navController: NavHostController, database: AppDatabase) {
 
                 val number = backStackEntry.arguments?.getString("number")
                 val fact = backStackEntry.arguments?.getString("fact")
+
                 FactDetailsScreen(navController, number = number, fact = fact)
             }
         }

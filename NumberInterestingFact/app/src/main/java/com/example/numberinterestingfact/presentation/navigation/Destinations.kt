@@ -1,6 +1,6 @@
 package com.example.numberinterestingfact.presentation.navigation
 
 sealed class Destinations(val route: String) {
-    object Home : Destinations("home")
-    object FactDetails : Destinations("factDetails")
+    data object Home : Destinations("home")
+    data object FactDetails : Destinations("factDetails")
 }
