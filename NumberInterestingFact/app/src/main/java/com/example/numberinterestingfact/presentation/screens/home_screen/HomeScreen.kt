@@ -59,7 +59,7 @@ fun HomeScreen(navHostController: NavHostController, database: AppDatabase) {
                 "The field is empty."
             }
             enteredNumber.length > 10 -> {
-                "The number is too long"
+                "The number is too long. Try using less than 10 digits."
             }
             else -> {
                 ""
