@@ -4,7 +4,7 @@
 A Kotlin JetPack Compose app, which shows interesting facts about numbers.
 
 ## Features
-- Room Database integration
+- Room Database integration for history of user requests
 - KTOR for RestAPIs requests
 - Good UI Design with custom fonts
 - Clean Architecture, with 3 layers (data, domain, presentation)
